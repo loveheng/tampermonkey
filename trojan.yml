@@ -320,15 +320,7 @@ proxy-groups:
       - vmess
       - trojan
       # - US
-
-  # 中国流媒体服务（面向海外版本）
-  # 用于观看部分国内流媒体面向港澳台的地区的限定内容，此处应放港澳台节点，如果没有此需求可删除此处策略组及相关规则
-  - name: "StreamingSE"
-    type: select
-    proxies:
-      - DIRECT
-      - 2
-
+      
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
 rule-providers:
