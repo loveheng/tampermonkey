@@ -194,9 +194,9 @@ proxies:
   # Trojan
   - name: "3"
     type: trojan
-    server: lvwsx.ga
-    port: 1443
-    password: lvwsx.ga
+    server: inkshadow.tk
+    port: 12427
+    password: inkshadow.tk
     # udp: true
     # sni: example.com # aka server name
     # alpn:
